@@ -1,41 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-   <!-- CDN LINKI Content Delivery Network -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- AOS library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- animate.css library -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+    <!-- CDN LINKI Content Delivery Network -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <title>Portfolio Creator</title>
+  </head>
+  <body>
+    <header>
+      <!-- ? Dive olcu px le verilir shekile % -->
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="" />
+      </div>
+
+      <nav class="nav-links">
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Projects</a>
+        <a href="">Blogs</a>
+        <a href="">Book a call</a>
+        <a href="">
+          <img src="./assets/images/right-arrow.svg" alt="" />
+        </a>
+      </nav>
+
+      <i class="fa-solid fa-burger"></i>
+    </header>
+
+    <section class="partner-shirketler">
+      <h6>Trusted by</h6>
+      <div class="shirketler">
+        <img src="./assets/images/partner/shirket1.svg" alt="" />
+        <img src="./assets/images/partner/shirket2.svg" alt="" />
+        <img src="./assets/images/partner/shirket3.svg" alt="" />
+        <img src="./assets/images/partner/shirket4.svg" alt="" />
+      </div>
+    </section>
+
+    <section class="blogs">
+      <div class="blog-left-side">
+        <h6>Blogs</h6>
+        <h2>Latest Blogs</h2>
+        <a href="">View all</a>
+      </div>
+
+      <div class="blog-right-side">
+
+        <div class="blog">
+          <span>April 16, 2021, 6 mins </span>
+          <h2>Design tips for designers, that cover everything you need</h2>
+          <a href="">Read the article</a>
+        </div>
+
+        <div class="blog headline">
+          <span>April 16, 2021, 6 mins </span>
+          <h2>Design tips for designers, that cover everything you need</h2>
+          <a href="">Read the article</a>
+        </div>
+
+        <div class="blog">
+          <span>April 16, 2021, 6 mins </span>
+          <h2>Design tips for designers, that cover everything you need</h2>
+          <a href="#">Read the article</a>
+        </div>
+
+        <div class="blog">
+          <span>April 16, 2021, 6 mins </span>
+          <h2>Design tips for designers, that cover everything you need</h2>
+          <a href="">Read the article</a>
+        </div>
+
+        <div class="blog">
+          <span>April 16, 2021, 6 mins </span>
+          <h2>Design tips for designers, that cover everything you need</h2>
+          <a href="">Read the article</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="services">
+        <h6>Services</h6>
+        <hr>
+        <h1 class="animate__animated animate__fadeInLeft  animate__slow">Design that solves problems, <br> one product at a time.</h1>
+
+        <div class="cards-section">
+            <div data-aos="zoom-in-down" class="card">
+                <img src="./assets/images/services/service1.svg" alt="">
+                <h2>What I can do for you</h2>
+                <p>Faster, better products that your users love. Here's all the services I provide:</p>
+
+                <ul>
+                    <li>Design strategy</li>
+                    <li>Web and Mobile App Design</li>
+                    <li>Front-end Development</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <img src="./assets/images/services/service2.svg" alt="">
+                <h2>What I can do for you</h2>
+                <p>Faster, better products that your users love. Here's all the services I provide:</p>
+
+                <ul>
+                    <li>Design strategy</li>
+                    <li>Web and Mobile App Design</li>
+                    <li>Front-end Development</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <img src="./assets/images/services/service3.svg" alt="">
+                <h2>What I can do for you</h2>
+                <p>Faster, better products that your users love. Here's all the services I provide:</p>
+
+                <ul>
+                    <li>Design strategy</li>
+                    <li>Web and Mobile App Design</li>
+                    <li>Front-end Development</li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </section>
 
 
  
-</head>
-<body>
 
 
-    <header>
+    <!-- Scrollreveal js  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!-- ? Dive olcu px le verilir shekile % -->
-        <div class="logo">
-            <img src="./assets/images/logo.svg" alt="">
-        </div>
 
-        <nav class="nav-links">
-            <a href="">About</a>
-            <a href="">Services</a>
-            <a href="">Projects</a>
-            <a href="">Blogs</a>
-            <a href="">Book a call</a>
-            <a href="">
-                <img src="./assets/images/right-arrow.svg" alt="">
-            </a>
-        </nav>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      ScrollReveal({ reset: true });
 
-        <i class="fa-solid fa-burger"></i>
-    </header>
-</body>
+      ScrollReveal().reveal('.headline');
+ScrollReveal().reveal('.tagline', { delay: 500 });
+ScrollReveal().reveal('.punchline', { delay: 2000 });
+
+    </script>
+
+
+  
+
+  </body>
 </html>
