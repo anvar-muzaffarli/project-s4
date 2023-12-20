@@ -102,8 +102,58 @@ letter-spacing: 1px;
     transform: scale(1);
     transform: rotate(360deg);
 } */
+.blogs {
+    background-color: #222;
+    padding:20px;
+}
+
+.blog {
+    border-bottom: 1px solid #dedede;
+   
+    padding: 40px 0;
+}
+
+.blogs a, .blogs span {
+    color:#fff;
+}
+
+.blogs .blog-left-side h2 {
+    color: #FFF;
+
+font-size: 30px;
+text-align: center;
+
+font-weight: 700;
+
+letter-spacing: 1px;
+}
+
+.blogs .blog-left-side h6 {
+    color: #FFA84B;
+
+font-size: 22px;
+font-weight: 700;
+letter-spacing: 4px;
+text-transform: uppercase;
+text-align: center;
+margin: 0;
+
+}
+
+.blogs .blog-right-side h2 {
+    color: #FFF;
+
+font-family: Roboto;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 128.571% */
+}
 
 
+.blogs .blog-right-side h2 {
+    font-size: 22px;
+}
 
 /* MEDIA SORGULARI */
 
@@ -132,14 +182,35 @@ letter-spacing: 1px;
 
 .blogs {
     display: flex;
+    justify-content: space-between;
     background-color: #222;
     color:#fff;
     gap: 70px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+    padding: 100px;
+    
 }
+
+
 
 .blog-left-side {
     flex-basis: 30%;
 }
+/* Group selector */
+.blogs .blog-left-side h6, .blogs .blog-left-side h2 {
+    text-align: left;
+}
+
+.blogs .blog-right-side h2 {
+    font-size: 24px;
+}
+
+.blogs  {
+padding: 100px 40px;
+}
+
+
 }
 
 
